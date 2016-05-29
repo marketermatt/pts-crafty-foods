@@ -1,0 +1,369 @@
+/*
+Theme Name:		Crafty Foods
+Theme URI:		http://craftythemes.com
+Description:    CraftyLawyer is an excellent laywer wordpress theme by craftythemes.com
+Author:         CraftyThemes
+Author URI:		http://craftythemes.com
+Template:       Azkaban
+Version:        1.1
+*/
+
+@import url("../Azkaban/style.css");
+
+body { 
+	color: #538300;
+	background: #fff url(images/bg1.png);
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+} 
+
+
+/***********************************************************/
+/* Typography */
+/***********************************************************/
+h1, h2, h3, h4, h5, h6 {
+	color: #C03212;
+	font-family: 'Boogaloo', sans-serif;
+	font-weight: 400;
+	margin: 10px 0px;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 28px;
+    line-height: 28px;
+}
+
+h2 {
+	font-size: 22px;
+    line-height: 22px;
+}
+
+h3 {
+	font-size: 16px;
+    line-height: 20px;
+}
+
+a, .az-posttitle a {
+	color: #C03212;
+}
+
+a:hover, .az-posttitle a:hover {
+	color: #FB9D06;
+}
+
+/*************************************************************************/
+/* Topbar */
+/*************************************************************************/
+#az-topbarwrap {
+	background-color: #538300;
+	color: #fff;
+	min-height: 40px;
+	font-size: 0.9em;
+}
+
+.az-topbarafter {
+    background-image: 
+    linear-gradient(45deg, #fff 25%, transparent 25%, transparent),
+	linear-gradient(-45deg, #fff 25%, transparent 25%, transparent), 
+    linear-gradient(45deg, transparent 75%, #fff 75%), 
+    linear-gradient(-45deg, transparent 75%, #fff 75%);
+}
+
+.az-topbarafter {
+    background-position: 0 7px;
+    background-size: 10px 12px;
+    height: 7px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.az-topbarsocialsleft a, .az-topbarsocialslright a {
+	color: #8BC318;
+}
+
+.az-topbarsocialsleft a:hover, .az-topbarsocialslright a:hover {
+	color: #fff;
+}
+
+/*************************************************************************/
+/* Header */
+/*************************************************************************/
+#az-headerwrap {
+	border-bottom: 1px solid #fff;
+}
+
+
+
+/*************************************************************************/
+/* Navigation */
+/*************************************************************************/
+#az-navigationwrap {
+	background: #8BC318;
+	border-bottom: none;
+	font-family: 'Boogaloo', sans-serif;
+	min-height: 80px;
+	font-size: 1.4em;
+}
+
+#az-navigationright {
+	float: right;
+	font-family: 'Boogaloo', sans-serif;
+}
+
+.az-navigationbefore {
+    background-image: 
+    linear-gradient(45deg, #8BC318 25%, transparent 25%, transparent),
+	linear-gradient(-45deg, #8BC318 25%, transparent 25%, transparent), 
+    linear-gradient(45deg, transparent 75%, #8BC318 75%), 
+    linear-gradient(-45deg, transparent 75%, #8BC318 75%);
+}
+
+.az-navigationbefore {
+    background-position: 0 7px;
+    background-size: 10px 12px;
+    height: 7px;
+    position: relative;
+    top: -7px;
+    width: 100%;
+}
+
+.az-navigationafter {
+    background-image: 
+    linear-gradient(45deg, #fff 25%, transparent 25%, transparent),
+	linear-gradient(-45deg, #fff 25%, transparent 25%, transparent), 
+    linear-gradient(45deg, transparent 75%, #fff 75%), 
+    linear-gradient(-45deg, transparent 75%, #fff 75%);
+}
+
+.az-navigationafter {
+    background-position: 0 7px;
+    background-size: 10px 12px;
+    height: 7px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.az-menualert {
+	line-height: 80px;
+}
+
+.az-sitenav {
+	height: 80px;
+}
+
+.az-sitenav a {
+	color: #548301;
+	line-height: 80px;
+}
+
+.az-sitenavr a {
+	color: #548301;
+}
+
+.az-sitenav li.current-menu-item a, .az-sitenavr li.current-menu-item a {
+	color: #fff;
+}
+
+.az-sitenav li:hover > a,
+.az-sitenav ul ul li:hover > a,
+.az-sitenavr li:hover > a,
+.az-sitenavr ul ul li:hover > a {
+	color: #fff;
+}
+
+/* Second level */
+.az-sitenav ul ul, .az-sitenavr ul ul {
+	top: 80px;
+	background-color: #8BC318;
+}
+
+.az-sitenav ul ul li, .az-sitenavr ul ul li {
+	color: #548301;
+	border-top: 1px solid #8BC318;
+}
+
+.az-sitenav ul ul a, .az-sitenavr ul ul a {
+	color: #548301;
+}
+
+.az-sitenav li.current-menu-item ul a, .az-sitenavr li.current-menu-item ul a {
+	color: #548301;
+}
+
+/*************************************************************************/
+/* Sections */
+/*************************************************************************/
+.az-sectiontitle {
+    line-height: 40px;
+}
+
+/*************************************************************************/
+/* Post Content Section */
+/*************************************************************************/
+.az-postmeta {
+	border-top: 4px dotted #E0DEDE;
+	border-bottom: 4px dotted #E0DEDE;
+}
+
+#az-pagetitlewrap {
+	float: left;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #fff;
+}
+
+/*************************************************************************/
+/* Sidebar */
+/*************************************************************************/
+#az-sidebar {
+	color: #666;
+}
+
+#az-sidebar h2 {
+	color: #538301;
+}
+
+#az-sidebar ul li, #az-sidebar ul li ul li {
+	border-bottom: 4px dotted #E0DEDE;
+}
+
+/*************************************************************************/
+/* Footer Widgets */
+/*************************************************************************/
+#az-footerwidgetwrap {
+	color: #3A5B02;
+	background-color: #8ac317;
+	
+}
+
+.az-footerwidgetsbefore {
+    background-image: linear-gradient(45deg, #8ac317 25%, transparent 25%, transparent), linear-gradient(-45deg, #8ac317 25%, transparent 25%, transparent), linear-gradient(45deg, transparent 75%, #8ac317 75%), linear-gradient(-45deg, transparent 75%, #8ac317 75%);
+}
+
+.az-footerwidgetsbefore {
+    background-position: 0 7px;
+    background-size: 10px 12px;
+    height: 7px;
+    position: relative;
+    top: -7px;
+    width: 100%;
+}
+
+#az-footerwidgets h2 {
+	color: #f1f1f1;
+	text-shadow: -1px -1px 0px #538300;
+}
+
+#az-footerwidgets h3, #az-footerwidgets h4, #az-footerwidgets h5, #az-footerwidgets h6  {
+	color: #f1f1f1;
+}
+
+#az-footerwidgets .widget_title span {
+	background: none repeat scroll 0 0 #8ac317;
+	padding-right: 5px;
+}
+
+#az-footerwidgets a {
+	color: #C03212;
+}
+
+#az-footerwidgets a:hover {
+	color: #538300;
+}
+
+/*************************************************************************/
+/* Footer */
+/*************************************************************************/
+#az-footerwrap {
+	background-color: #538300;
+	font-size: 0.8em;
+}
+
+.az-footerbefore {
+    background-image: linear-gradient(45deg, #538300 25%, transparent 25%, transparent), linear-gradient(-45deg, #538300 25%, transparent 25%, transparent), linear-gradient(45deg, transparent 75%, #538300 75%), linear-gradient(-45deg, transparent 75%, #538300 75%);
+}
+
+.az-footerbefore {
+    background-position: 0 7px;
+    background-size: 10px 12px;
+    height: 7px;
+    position: relative;
+    top: -7px;
+    width: 100%;
+}
+
+#az-footer p {
+	color: #fff;
+}
+
+#az-footer a {
+	color: #8ac317;
+	text-decoration: none;
+}
+
+#az-footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*************************************************************************/
+/* Mobile Navigation Styles */
+/*************************************************************************/
+nav {  
+	background-color: #8AC317 !important;
+}
+
+nav a {  
+	color: #538301 !important;
+}  
+    
+nav li a {  
+	border-right: 1px solid #8AC317 !important;
+	border-left: 1px solid #8AC317 !important;
+}  
+
+nav li:nth-child(even) a {  
+	border-left: 0px solid #8AC317 !important;
+}  
+
+nav li:last-child a {  
+	border-right: 1px solid #8AC317 !important;
+}  
+    
+nav a:hover, nav a:active {  
+	color: #fff !important;
+}  
+
+@media screen and (max-width: 769px) {  
+	#az-navigationwrap {
+		background-color: #8AC317 !important;
+		min-height: 40px;
+	}
+	nav li a {  
+		border-bottom: 1px solid #8AC317 !important;
+	}
+}  
+@media only screen and (max-width : 480px) {  
+	#az-navigationwrap {
+		background-color: #8AC317 !important;
+	}
+}
+@media only screen and (max-width : 320px) {  
+	#az-navigationwrap {
+		background-color: #8AC317 !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #8AC317 !important;
+	}  
+	nav li:nth-child(even) a {  
+		border-left: 1px solid #8AC317 !important;
+	}
+}  
